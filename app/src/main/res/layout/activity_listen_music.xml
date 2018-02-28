@@ -8,25 +8,7 @@
     android:background="#0d0204"
     tools:context="com.example.quoctuan.mymusic.ListenMusicActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:src="@drawable/ic_menu"
-            android:layout_width="30dp"
-            android:layout_height="30dp" />
-        <TextView
-            android:gravity="center"
-            android:textColor="@android:color/white"
-            android:text="@string/my_music"
-            android:textSize="20sp"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content" />
-        <ImageView
-            android:src="@drawable/ic_right"
-            android:layout_width="30dp"
-            android:layout_height="30dp" />
-    </android.support.v7.widget.Toolbar>
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_marginTop="10dp"
